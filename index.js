@@ -2,7 +2,7 @@
 const find = document.getElementById("input");
 const listItem = document.getElementById("list-item");
 const searchInput = document.getElementById("search");
-const arr = JSON.parse(localStorage.getItem("listArray"))   ;
+const arr = JSON.parse(localStorage.getItem("listArray")) || [];
 
 // for search bar
 function filter(){
