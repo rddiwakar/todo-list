@@ -1,0 +1,67 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+.header{
+    background: red;
+    color:aqua;
+    margin-top: 0px;
+   
+}
+.header h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    padding-top: 10px;
+
+}
+.header input{
+    width: 70%;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.header button{
+    width:25%;
+    font-size:20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.Items{
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+#list-item{
+margin :0px;
+padding: 0px;
+
+}
+
+.style-li{
+    background: blue;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+}
+li:checked{
+    background-color: grey;
+    text-decoration: line-through;
+    color: red;
+   }
+.searchBar{
+    width: 70%;
+    font-size: 20px;
+    padding-left: 20px;
+    margin :20px 0 10px 20px;
+}
+#demo{
+    font-size: 20px;
+    padding: 10px;
+}
+
